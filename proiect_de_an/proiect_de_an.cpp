@@ -144,11 +144,28 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
     case WM_PAINT:
         {
-            PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hWnd, &ps);
-            // TODO: Add any drawing code that uses hdc here...
-            EndPaint(hWnd, &ps);
-        }
+        PAINTSTRUCT ps;
+        HDC hdc = BeginPaint(hWnd, &ps);
+
+        // Define the text to be displayed
+        LPCWSTR text = L"Aici se va petrece toate schimbarile de cod ))!";
+
+        // Set the position for the text
+        int x = 10; // X position of the text
+        int y = 10; // Y position of the text
+
+        // Set the text color
+        SetTextColor(hdc, RGB(0, 0, 0)); // Black text
+
+        // Set the background mode to transparent
+        SetBkMode(hdc, TRANSPARENT);
+        
+
+        // Draw the text at the specified position
+        TextOut(hdc, x, y, text, lstrlen(text));
+
+        EndPaint(hWnd, &ps);
+    }
         break;
     case WM_DESTROY:
         PostQuitMessage(0);
