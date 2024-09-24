@@ -149,6 +149,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
         // Define the text to be displayed
         LPCWSTR text = L"Aici se va petrece toate schimbarile de cod ))!";
+          LPCWSTR text = L" m-am lamurit cu conectarea la github )))))!";
 
         // Set the position for the text
         int x = 10; // X position of the text
