@@ -15,7 +15,7 @@ using namespace cv;
 //}
 
 void main() {
-	VideoCapture video(1);
+	VideoCapture video(0);
 	Mat img;
 	while (true) {
 		video.read(img);
