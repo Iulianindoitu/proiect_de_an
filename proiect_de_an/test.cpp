@@ -37,7 +37,7 @@ void main() {
 
 
 		imshow("Frame", img);
-		waitKey(1);
+		waitKey(1); /*comment*/
 
 
 	}
