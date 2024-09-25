@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "proiect_de_an", "..\x64\Debug\proiect_de_an.exe", "{E863D4C2-A43D-45EF-A2FE-7CB8F8BF3CEE}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\iulia\source\repos\ProiectDeAn\proiect_de_an\x64\Debug\proiect_de_an.exe
+		RemoteMachine = IULIAN
+		StartingDirectory = C:\Users\iulia\source\repos\ProiectDeAn\proiect_de_an\x64\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E863D4C2-A43D-45EF-A2FE-7CB8F8BF3CEE}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92597D70-871B-42EF-B55A-03A5DA0235BE}
+	EndGlobalSection
+EndGlobal

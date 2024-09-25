@@ -148,7 +148,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         HDC hdc = BeginPaint(hWnd, &ps);
 
         // Define the text to be displayed
-        LPCWSTR text = L"Aici se va petrece toate schimbarile de codhhfygfyr))!";
+        LPCWSTR text = L"Aici se va petrece toate schimbarile de cod ))!";
           
 
         // Set the position for the text
